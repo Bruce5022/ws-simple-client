@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 @ClientEndpoint
 public class WebSocketClient {
 
-    private static String uri = "ws://localhost:8080/websocket/server/20-16-B9-22-E2-E1";
+    private static String uri = "ws://localhost:80/websocket/server/20-16-B9-22-E2-E1";
     private static Logger logger = LoggerFactory.getLogger(WebSocketClient.class);
     private static Session session;
     private static ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(2);
